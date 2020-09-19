@@ -9,6 +9,8 @@ spring:
       password: admin
 
 eureka:
+  server:
+    renewal-percent-threshold: 0.6
   instance:
     prefer-ip-address: true
   client:
