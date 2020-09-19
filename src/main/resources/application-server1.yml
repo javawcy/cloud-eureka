@@ -1,0 +1,4 @@
+eureka:
+  instance:
+    hostname: eureka1
+    instance-id: ${spring.application.name}:[${spring.cloud.client.ip-address}:${server.port}]
